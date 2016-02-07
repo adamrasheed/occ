@@ -1,0 +1,69 @@
+---
+layout: default
+title: "Home Page"
+fulltitle: "My New Website | Update Coming August 2004" 
+excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
+---
+<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+
+
+<section>
+    <h1>{{site.title}}</h1>
+    <p>{{site.tagline}}. Isn't your website beautiful?!</p>
+  
+    <hr />
+  
+    <div class="categories">
+    <div class="category web-design">
+        <h3>Web Design</h3>
+            <ul>
+            {% assign designers = site.data.web-design %}
+            {% for designer in designers %}
+                <li><a href="{{ designer.src }}" target="_blank">{{ designer.name }}</a></li>
+            {% endfor %}
+            </ul>
+    </div><!--end .category-->
+      
+    <div class="category graphic">
+        <h3>Graphic Design</h3>
+        <ul>
+        {% assign graphic-designers = site.data.graphic-design %}
+        {% for designer in graphic-designers %}
+            <li><a href="{{ designer.src }}" target="_blank">{{ designer.name }}</a></li>
+        {% endfor %}
+        </ul>
+    </div><!--end .category-->
+      
+    <div class="category illustration">
+        <h3>Illustration</h3>
+        <ul>
+        {% assign illustrators = site.data.illustration %}
+            {% for illustrator in illustrators %}
+                <li><a href="{{illustrator.src}}">{{illustrator.name}}</a></li>
+            {% endfor %}
+        </ul>
+    </div><!--end .category-->
+      
+    <div class="category photography">
+        <h3>Photography</h3>
+        <ul>
+            {% assign photographers = site.data.photography %}
+            {% for photographer in photographers %}
+                <li><a href="{{ photographer.src }}" target="_blank">{{ photographer.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div><!--end .category-->
+      
+    <div class="category development">
+        <h3>Development</h3>
+        <ul>
+            {% assign developers = site.data.development %}
+            {% for developer in developers %}
+                <li><a href="{{ developer.src }}" target="_blank">{{ developer.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div><!--end .category-->
+      
+    </div><!--end .categories-->
+</section>
