@@ -1,7 +1,7 @@
 # OC Creative
 A hand-curated List of creative professionals in Orange County.
 
-<<<<<<< HEAD
+
 This was also an excercise to practive Jekyll.
 
 
