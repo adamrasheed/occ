@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "OC Creative"
-fulltitle: "OC Creative | A curated list of hte best creative professionals in Orange County, California." 
-excerpt: A hand-picked list of the best creative professionals in Orange County, California who consistently produce amazing work. These professionals incldue web designers, graphic deisng, illustrators, photogrpahers, and web developers that are all either freelaners or own small agencies.
+title: OC Creative
+fulltitle: "OC Creative | A curated list of hte best creative professionals in Orange County, California."
+excerpt: "A hand-picked list of the best creative professionals in Orange County, California who consistently produce amazing work. These professionals incldue web designers, graphic deisng, illustrators, photogrpahers, and web developers that are all either freelaners or own small agencies."
+published: true
 ---
+
 <!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 
@@ -40,7 +42,7 @@ excerpt: A hand-picked list of the best creative professionals in Orange County,
         <ul>
         {% assign illustrators = site.data.illustration %}
             {% for illustrator in illustrators %}
-                <li><a href="{{illustrator.src}}">{{illustrator.name}}</a></li>
+                <li><a href="{{illustrator.src}}" target="_blank">{{illustrator.name}}</a></li>
             {% endfor %}
         </ul>
     </div><!--end .category-->
