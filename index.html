@@ -67,5 +67,15 @@ published: true
         </ul>
     </div><!--end .category-->
       
+    <div class="category copywriting">
+        <h3>Copywriting</h3>
+            <ul>
+            {% assign writers = site.data.copywriters %}
+            {% for writer in writers %}
+                <li><a href="{{ writer.src }}" target="_blank">{{ writer.name }}</a></li>
+            {% endfor %}
+            </ul>
+    </div><!--end .category-->
+      
     </div><!--end .categories-->
 </section>
