@@ -40,7 +40,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:creator`,
-                content: data.site.siteMetadata.author,
+                content: data.site.siteMetadata.author.twitter,
               },
               {
                 name: `twitter:title`,
@@ -49,6 +49,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription,
+              },
+              {
+                name: `viewport`,
+                content: `width=device-width, initial-scale=1`,
               },
             ]
               .concat(
@@ -89,7 +93,11 @@ const detailsQuery = graphql`
       siteMetadata {
         title
         description
-        author
+        author {
+          name
+          website
+          twitter
+        }
       }
     }
   }
