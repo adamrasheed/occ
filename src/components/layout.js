@@ -25,13 +25,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div class="site-wrapper">
+      <div className="site-wrapper">
         <SEO title={data.site.siteMetadata.title} />
         <Header
           siteTitle={data.site.siteMetadata.title}
           description={data.site.siteMetadata.description}
         />
-        <main class="main">{children}</main>
+        <main className="main">{children}</main>
         <Footer
           name={data.site.siteMetadata.author.name}
           twitterName={data.site.siteMetadata.author.twitter}

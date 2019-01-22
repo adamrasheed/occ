@@ -9,7 +9,10 @@ class Main extends React.Component {
           {category !== `All`
             ? people
                 .filter(({ node: { data } }) => {
-                  return data.Category === category
+                  const stringedCategory = JSON.stringify(data.Category)
+                    .replace('["', '')
+                    .replace('"]', '')
+                  return stringedCategory === category
                 })
                 .map(({ node: { data } }, i) => (
                   <Person

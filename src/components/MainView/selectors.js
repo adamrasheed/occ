@@ -15,12 +15,8 @@ class Selectors extends React.Component {
     return `button`
   }
 
-  componentDidMount() {
-    console.log(this.props.activeCategory)
-  }
   render() {
     const { setActiveCategory, activeCategory } = this.props
-    console.log(this.props)
     return (
       <div className="selector-container">
         <button

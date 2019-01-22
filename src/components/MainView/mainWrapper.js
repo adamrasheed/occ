@@ -9,17 +9,6 @@ class MainWrapper extends React.Component {
 
   setActiveCategory = ({ target }) => {
     const category = target.value
-
-    // target.classList.add('active')
-    // const siblings = []
-    // const parent = target.parentNode
-    // parent.childNodes.forEach(sibling => {
-    //   if (sibling !== target) {
-    //     siblings.push(sibling)
-    //   }
-    // })
-    // siblings.forEach(sibling => sibling.classList.remove('active'))
-
     this.setState({ category })
   }
 
