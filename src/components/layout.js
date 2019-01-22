@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div class="site-wrapper">
-        <SEO title="OC Creative" />
+        <SEO title={data.site.siteMetadata.title} />
         <Header
           siteTitle={data.site.siteMetadata.title}
           description={data.site.siteMetadata.description}

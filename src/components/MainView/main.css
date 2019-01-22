@@ -56,7 +56,7 @@ li.person {
   text-decoration: none;
   color: black;
   position: relative;
-  text-shadow: 0.5px 0.5px 0 white;
+  text-shadow: 1px 2px 0 white;
 }
 
 .person a::after {

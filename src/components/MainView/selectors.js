@@ -25,7 +25,7 @@ class Selectors extends React.Component {
       <div className="selector-container">
         <button
           key="0"
-          className={`button ${activeCategory == `All` ? `active` : null}`}
+          className={`button ${activeCategory === `All` ? `active` : null}`}
           value="All"
           onClick={setActiveCategory}
         >
@@ -33,7 +33,9 @@ class Selectors extends React.Component {
         </button>
         {categories.map((category, i) => (
           <button
-            className={`button ${activeCategory == category ? `active` : null}`}
+            className={`button ${
+              activeCategory === category ? `active` : null
+            }`}
             value={category}
             key={i}
             onClick={setActiveCategory}

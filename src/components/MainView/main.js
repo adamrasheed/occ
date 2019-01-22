@@ -1,5 +1,4 @@
 import React from 'react'
-import person from './person'
 import Person from './person'
 class Main extends React.Component {
   render() {
@@ -10,7 +9,7 @@ class Main extends React.Component {
           {category !== `All`
             ? people
                 .filter(({ node: { data } }) => {
-                  return data.Category == category
+                  return data.Category === category
                 })
                 .map(({ node: { data } }, i) => (
                   <Person

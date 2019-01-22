@@ -1,7 +1,6 @@
 import React from 'react'
 import Main from './main'
 import Selectors from './selectors'
-import { getSiblings } from '../../utils'
 import './main.css'
 class MainWrapper extends React.Component {
   state = {

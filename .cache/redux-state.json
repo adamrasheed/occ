@@ -822,7 +822,7 @@
       "resolve": "/Users/adamrasheed/Documents/websites/occ",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "7fd1ecef296a29a6c7e26f458abb443d",
+      "version": "e0fd6e93acbe15d51e9f134963c1dadc",
       "pluginOptions": {
         "plugins": []
       },
@@ -906,7 +906,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dbf61aa9a003e43f28dcf75abff9deac",
+        "contentDigest": "326879d2d5351352873ec5f79fbe507c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1027,12 +1027,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-01-22T19:57:52.886Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-22T20:56:48.545Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7c70b05479d7db53156010f4d760e656",
+        "contentDigest": "0d12c74ac00852bcbf900f2eda76b773",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1042,7 +1044,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c09e1a730bff563ea881f1bef74f6b30",
+        "contentDigest": "f68a655b8917b7515aab082dab0fc57d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1054,7 +1056,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-17T19:20:15.780Z",
-      "accessTime": "2019-01-22T19:57:57.678Z",
+      "accessTime": "2019-01-22T20:56:52.584Z",
       "changeTime": "2019-01-17T19:20:15.780Z",
       "birthTime": "2019-01-17T19:20:15.778Z",
       "root": "/",
@@ -1072,11 +1074,11 @@
       "blksize": 4096,
       "ino": 12895240671,
       "blocks": 0,
-      "atimeMs": 1548187077678.125,
+      "atimeMs": 1548190612584.398,
       "mtimeMs": 1547752815780.0881,
       "ctimeMs": 1547752815780.0881,
       "birthtimeMs": 1547752815777.5183,
-      "atime": "2019-01-22T19:57:57.678Z",
+      "atime": "2019-01-22T20:56:52.584Z",
       "mtime": "2019-01-17T19:20:15.780Z",
       "ctime": "2019-01-17T19:20:15.780Z",
       "birthtime": "2019-01-17T19:20:15.778Z"
@@ -1101,7 +1103,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-17T19:20:15.781Z",
-      "accessTime": "2019-01-17T19:42:54.325Z",
+      "accessTime": "2019-01-22T19:58:03.482Z",
       "changeTime": "2019-01-17T19:20:15.781Z",
       "birthTime": "2019-01-17T19:20:15.780Z",
       "root": "/",
@@ -1119,11 +1121,11 @@
       "blksize": 4096,
       "ino": 12895240673,
       "blocks": 48,
-      "atimeMs": 1547754174325.1597,
+      "atimeMs": 1548187083482.02,
       "mtimeMs": 1547752815780.5776,
       "ctimeMs": 1547752815780.5776,
       "birthtimeMs": 1547752815780.0806,
-      "atime": "2019-01-17T19:42:54.325Z",
+      "atime": "2019-01-22T19:58:03.482Z",
       "mtime": "2019-01-17T19:20:15.781Z",
       "ctime": "2019-01-17T19:20:15.781Z",
       "birthtime": "2019-01-17T19:20:15.780Z"
@@ -1158,7 +1160,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-17T19:20:15.780Z",
-      "accessTime": "2019-01-17T19:51:11.952Z",
+      "accessTime": "2019-01-22T20:26:36.871Z",
       "changeTime": "2019-01-17T19:20:15.780Z",
       "birthTime": "2019-01-17T19:20:15.778Z",
       "root": "/",
@@ -1176,11 +1178,11 @@
       "blksize": 4096,
       "ino": 12895240672,
       "blocks": 328,
-      "atimeMs": 1547754671952.441,
+      "atimeMs": 1548188796871.1565,
       "mtimeMs": 1547752815779.9448,
       "ctimeMs": 1547752815779.9448,
       "birthtimeMs": 1547752815777.573,
-      "atime": "2019-01-17T19:51:11.952Z",
+      "atime": "2019-01-22T20:26:36.871Z",
       "mtime": "2019-01-17T19:20:15.780Z",
       "ctime": "2019-01-17T19:20:15.780Z",
       "birthtime": "2019-01-17T19:20:15.778Z"
@@ -1447,6 +1449,24 @@
         "Url": "http://kneadle.com/"
       }
     },
+    "83dca83d-f896-5049-9942-0a9aaa4e3588": {
+      "id": "83dca83d-f896-5049-9942-0a9aaa4e3588",
+      "parent": null,
+      "table": "Orange County",
+      "children": [],
+      "internal": {
+        "type": "Airtable",
+        "contentDigest": "17f4c0094b9835041b01dc81292d44c0",
+        "owner": "gatsby-source-airtable"
+      },
+      "data": {
+        "Category": [
+          "Copywriting"
+        ],
+        "Name": "Josh Eck",
+        "Url": "https://joshwritescopy.com/"
+      }
+    },
     "36373bd7-b7c7-5078-9352-7f7f470a98d1": {
       "id": "36373bd7-b7c7-5078-9352-7f7f470a98d1",
       "parent": null,
@@ -1709,37 +1729,34 @@
     "plugins": {
       "gatsby-source-airtable": {
         "status": {
-          "lastFetched": "2019-01-22T19:57:59.327Z"
+          "lastFetched": "2019-01-22T20:56:53.618Z"
         }
       }
     },
-    "PLUGINS_HASH": "815bcbbabd08a386b06944ab23e81122"
+    "PLUGINS_HASH": "376c378e562bfcf43abfc10c906614b8"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "25f46328-3a60-582b-b9ca-1d56e96bef39": [
         "sq--src-components-image-js"
       ],
       "f127c4d2-3f88-51b0-8d2d-82e7a03fce42": [
         "sq--src-components-image-js"
-      ],
-      "685175ff-2279-5001-8952-1f975e22f55d": []
+      ]
     },
     "connections": {
       "Airtable": [
-        null,
-        null,
         "/"
       ]
     }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "701/path---index-6a9-Qbe1vTI4T3ncCl6zvfsthYSxUW4",
+    "index": "30/path---index-6a9-Rbv0ep2XzJn5QaBJt8AIiAMCs8w",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -1763,14 +1780,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersAdamrasheedDocumentsWebsitesOccSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/adamrasheed/Documents/websites/occ/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersAdamrasheedDocumentsWebsitesOccSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/adamrasheed/Documents/websites/occ/src/components/layout.js",
@@ -1786,6 +1795,14 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author {\n        name\n        website\n        twitter\n      }\n    }\n  }\n}\n",
       "hash": 1102633226
+    },
+    "sq--src-components-image-js": {
+      "name": "usersAdamrasheedDocumentsWebsitesOccSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/adamrasheed/Documents/websites/occ/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersAdamrasheedDocumentsWebsitesOccSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
     }
   }
 }
