@@ -3,7 +3,7 @@ class Footer extends React.Component {
   render() {
     const { name, twitterName, referralLink } = this.props
     return (
-      <footer>
+      <footer className="footer">
         Created by{' '}
         <a
           href={`https://twitter.com/${twitterName}`}
